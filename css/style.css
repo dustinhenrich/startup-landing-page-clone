@@ -1,42 +1,16 @@
-body {
-	background-color: LightGray;
-}
-div {
-	border: 1px solid Chocolate;
+/*navigation-section*/
+
+.top-navigation{
+	background-color: #fff;
 }
 
-.logo {
-	width: 26px;
-	height: 76px;
-}
-
-.nav-list {
-	float: right;
-	margin-right: 19em;
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
 }
 
 .logo{
-	float:left;
-	margin-left: 20.5em;
-}
-
-.navigation-section > ul > li {
-	display: inline-block;
-	list-style-type: none;
-	padding: 1em;
-}
-
-.navigation-section > ul > li > a{
-	text-decoration: none;
-	color: #A0A79C;
-}
-
-.navigation-section > ul > li > a:hover {
-	text-decoration: none;
-	color: #3B3A38;
-}
-
-#active-link {
-	font-weight: bold;
-	color: #121211;
+	margin-left: 21em;
+	margin-top: 2em;
 }
