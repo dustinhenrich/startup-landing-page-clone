@@ -51,8 +51,18 @@ li {
 
 .top-navigation .links  {
 	float: right;
+	margin-top: 2em;
 }
 
 .logo{
 	float: left;
+	margin-top: 1em;
+}
+
+/* Middle-content layout*/
+
+.middle-content{
+	    background-image: url("../images/first-background copy.jpg");
+    height: 45.938rem;
+    background-repeat: no-repeat;
 }
