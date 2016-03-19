@@ -66,3 +66,9 @@ li {
     height: 45.938rem;
     background-repeat: no-repeat;
 }
+
+.intro-titles{
+	text-align: center;
+	color: #CCCBC4;
+	font-family: 'Raleway', sans-serif;
+}
