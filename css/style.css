@@ -1,3 +1,7 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -12,7 +16,6 @@ li {
 /* Font-Styles*/
 
 .top-navigation	.links{
-	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
@@ -61,14 +64,25 @@ li {
 
 /* Middle-content layout*/
 
-.middle-content{
-	    background-image: url("../images/first-background copy.jpg");
-    height: 45.938rem;
+.background {
+	background-image: url("../images/first-background copy.jpg");
+	background-position: center bottom;
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+
 }
 
-.intro-titles{
+.background h1 {
+	font-size: 3.1em;
+	font-weight: 300;
+	color: white;
 	text-align: center;
-	color: #CCCBC4;
-	font-family: 'Raleway', sans-serif;
+}
+
+.background h3{
+	font-size: 1.2em;
+	font-weight: 300;
+	color: white;
+	text-align: center;
 }
