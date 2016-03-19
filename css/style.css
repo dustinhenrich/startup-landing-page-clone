@@ -60,6 +60,7 @@ li {
 .logo{
 	float: left;
 	margin-top: 1em;
+	margin-left: 4em;
 }
 
 /* Middle-content layout*/
@@ -78,6 +79,7 @@ li {
 	font-weight: 300;
 	color: white;
 	text-align: center;
+	padding-top: 5em;
 }
 
 .background h3{
@@ -85,4 +87,33 @@ li {
 	font-weight: 300;
 	color: white;
 	text-align: center;
+}
+
+.background .button-group{
+	color: white;
+	text-align: center;
+	margin-top: 1.563em;
+}
+
+/*
+.button-group{
+	border: 1px solid Chocolate;
+}
+*/
+
+.btn{
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+}
+
+.btn:hover {
+    background-color: #e5e5e5; 
+    cursor: hand;   
 }
