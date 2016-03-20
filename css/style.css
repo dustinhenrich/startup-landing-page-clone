@@ -95,12 +95,6 @@ li {
 	margin-top: 1.563em;
 }
 
-/*
-.button-group{
-	border: 1px solid Chocolate;
-}
-*/
-
 .btn{
     width: 9.688rem;
     background-color: #f15a29;
@@ -117,3 +111,14 @@ li {
     background-color: #e5e5e5; 
     cursor: hand;   
 }
+
+/* Icon Layout*/
+
+.icons-section .icons > li{
+	display: inline-block;
+	padding: 0 6em;
+}
+
+
+
+
