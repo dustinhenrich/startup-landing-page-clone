@@ -44,6 +44,9 @@ li {
 
 .top-navigation{
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .content {
@@ -114,11 +117,17 @@ li {
 
 /* Icon Layout*/
 
-.content h2{
+.cases .content h2{
 	font-size: 2.75rem;
 	font-weight: 300;
 	text-align: center;
 	padding-top: 2em;
+}
+
+.cases .devices h3{
+	font-size: 1.2rem;
+	font-weight: 400;
+	margin: 2.5rem 0px 1.875rem;
 }
 
 .devices-container {
