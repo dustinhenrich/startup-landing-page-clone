@@ -47,6 +47,8 @@ li {
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
+	border: 0;
+    border-bottom: 1px solid #eaebec;
 }
 
 .content {
@@ -150,4 +152,40 @@ li {
 	width: 200px;
 	height: 150px;
 	margin-top: 10px;
+}
+
+/* social layout*/
+
+.social{
+	margin-top: 30em;
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+
+.social hr{
+	border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+
+.social .content h5{
+	text-align: center;
+	font:inherit;
+
+}
+
+.icons{
+	padding-right: 2.4em;
+}
+
+#twitter{
+	color: #55acee;
+}
+
+.social .copy{
+    font-size: 0.9rem;
+	font-weight: 300;
+	color: #838994;
 }
